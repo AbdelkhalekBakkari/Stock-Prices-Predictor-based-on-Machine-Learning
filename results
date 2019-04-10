@@ -1,0 +1,4 @@
+#calculate rmse
+rms=np.sqrt(np.mean(np.power((np.array(valid['Close'])-preds),2)))
+rms
+104.51415465984348
